@@ -1,7 +1,7 @@
 import '../styling/ArticleLink.css';
 
-const ArticleLink = () => {
-  return <p>Here's an Article Link</p>
+const ArticleLink = ( {articleInfo} ) => {
+  return <p>{articleInfo.title}</p>
 };
 
 export default ArticleLink;

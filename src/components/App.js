@@ -10,14 +10,14 @@ const App = () => {
   useEffect(() => {
     getFetch('home')
     .then(data => setDisplayedArticles(data.results))
-  })
+  });
 
   return (
     <main>
     <header>NYTimes Top Stories</header>
-      <ArticleList />
+      <ArticleList displayedArticles={displayedArticles}/>
     </main>
   );
-}
+};
 
 export default App;
