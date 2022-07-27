@@ -24,9 +24,9 @@ const App = () => {
         <ArticleList displayedArticles={displayedArticles}/>
       </main>}
     />
-    <Route exact path="/detail" render={() => 
+    <Route exact path="/:title" render={( {match} ) => 
       <section>
-        <p>details view</p>
+        <p>{match.params.title}</p>
       </section>
     }
     />

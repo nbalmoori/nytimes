@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../styling/ArticleLink.css';
 
 const ArticleLink = ( {articleInfo} ) => {
@@ -6,16 +7,20 @@ const ArticleLink = ( {articleInfo} ) => {
 
   if (!thumbnail) {
     return (
-      <div className='articleLink'>
-      <p className='articleLinkTitle'>{articleInfo.title}</p>
-    </div>
+      <Link to={`/${articleInfo.title}`}>
+        <div className='articleLink'>
+          <p className='articleLinkTitle'>{articleInfo.title}</p>
+        </div>
+      </Link>
     )
   } else {
     return (
-      <div className='articleLink'>
-        <img src={thumbnail.url} alt={thumbnail.caption}/>
-        <p className='articleLinkTitle'>{articleInfo.title}</p>
-      </div>
+      <Link to={`/${articleInfo.title}`}>
+        <div className='articleLink'>
+          <img src={thumbnail.url} alt={thumbnail.caption}/>
+          <p className='articleLinkTitle'>{articleInfo.title}</p>
+        </div>
+      </Link>
     )
   }
 };
