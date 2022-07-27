@@ -1,0 +1,8 @@
+.articleLink {
+  display: flex;
+  padding: 5%;
+}
+
+.articleLinkTitle {
+  padding: 2%;
+}

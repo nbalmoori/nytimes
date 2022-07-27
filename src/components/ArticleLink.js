@@ -2,13 +2,12 @@ import '../styling/ArticleLink.css';
 
 const ArticleLink = ( {articleInfo} ) => {
 
-  const thumbnail = articleInfo.multimedia.find(media => media.format === 'Large Thumbnail').url
-  console.log(thumbnail)
+  const thumbnail = articleInfo.multimedia.find(media => media.format === 'Large Thumbnail')
 
   return (
   <div className='articleLink'>
-    <img src={thumbnail} />
-    <p>{articleInfo.title}</p>
+    <img src={thumbnail.url} alt={thumbnail.caption}/>
+    <p className='articleLinkTitle'>{articleInfo.title}</p>
   </div>
 )};
 

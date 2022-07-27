@@ -14,7 +14,7 @@ const App = () => {
 
   return (
     <main>
-    <header>NYTimes Top Stories</header>
+    <header>Top Stories from the NYT</header>
       <ArticleList displayedArticles={displayedArticles}/>
     </main>
   );
