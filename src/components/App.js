@@ -1,10 +1,12 @@
 import '../styling/App.css';
+import ArticleList from './ArticleList';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <main>
     <header>NYTimes Top Stories</header>
-    </div>
+      <ArticleList />
+    </main>
   );
 }
 
