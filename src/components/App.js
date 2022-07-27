@@ -1,8 +1,9 @@
-import '../styling/App.css';
+import { useEffect, useState } from 'react';
+import { Route } from 'react-router-dom';
 import ArticleList from './ArticleList';
 import Filter from './Filter';
-import { useEffect, useState } from 'react';
 import getFetch from '../apiCalls';
+import '../styling/App.css';
 
 const App = () => {
 
@@ -15,11 +16,13 @@ const App = () => {
   });
 
   return (
-    <main>
-      <header>Top Stories from the NYT</header>
-      <Filter setDisplayFilter={setDisplayFilter}/>
-      <ArticleList displayedArticles={displayedArticles}/>
-    </main>
+    <Route exact path="/" render={() =>
+      <main>
+        <header>Top Stories from the NYT</header>
+        <Filter setDisplayFilter={setDisplayFilter}/>
+        <ArticleList displayedArticles={displayedArticles}/>
+      </main>}
+    />
   );
 };
 
