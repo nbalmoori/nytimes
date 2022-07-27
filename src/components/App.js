@@ -16,6 +16,7 @@ const App = () => {
   });
 
   return (
+    <>
     <Route exact path="/" render={() =>
       <main>
         <header>Top Stories from the NYT</header>
@@ -23,6 +24,13 @@ const App = () => {
         <ArticleList displayedArticles={displayedArticles}/>
       </main>}
     />
+    <Route exact path="/detail" render={() => 
+      <section>
+        <p>details view</p>
+      </section>
+    }
+    />
+    </>
   );
 };
 
