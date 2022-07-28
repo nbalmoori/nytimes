@@ -2,6 +2,8 @@ import '../styling/ArticleDetails.css';
 import getFetch from '../apiCalls';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import dayjs from 'dayjs';
+
 
 
 const ArticleDetails = ( {id, section} ) => {
@@ -19,7 +21,7 @@ const ArticleDetails = ( {id, section} ) => {
     <div className='articleInfo'>
       <h1>{selectedArticle.title}</h1>
       <p>{selectedArticle.byline}</p>
-      <p>Published: {selectedArticle.published_date}</p>
+      <p>Date Published: {dayjs(selectedArticle.published_date).format('MM-DD-YYYY')}</p>
       {jumboPic && <><img className='jumboPic' src={jumboPic.url} alt={jumboPic.caption}/> <p>{jumboPic.copyright}</p> <p>{jumboPic.caption}</p> </>}
       <p>{selectedArticle.abstract}</p>
       <p>To view this story on the NYT website, click <a href={selectedArticle.url}>here</a></p>
