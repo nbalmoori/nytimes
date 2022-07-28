@@ -1,6 +1,7 @@
 import '../styling/ArticleDetails.css';
 import getFetch from '../apiCalls';
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 
 const ArticleDetails = ( {id, section} ) => {
@@ -13,7 +14,7 @@ const ArticleDetails = ( {id, section} ) => {
   }, []);
 
   const jumboPic = selectedArticle.multimedia?.find(media => media.format === 'Super Jumbo')
-  
+
   return (
     <div className='articleInfo'>
       <h1>{selectedArticle.title}</h1>
@@ -22,6 +23,7 @@ const ArticleDetails = ( {id, section} ) => {
       {jumboPic && <><img className='jumboPic' src={jumboPic.url} alt={jumboPic.caption}/> <p>{jumboPic.copyright}</p> <p>{jumboPic.caption}</p> </>}
       <p>{selectedArticle.abstract}</p>
       <p>To view this story on the NYT website, click <a href={selectedArticle.url}>here</a></p>
+      <Link to={'/'}><button>Return Home</button></Link>
     </div>
   )
 };

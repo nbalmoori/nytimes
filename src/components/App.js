@@ -16,7 +16,7 @@ const App = () => {
   useEffect(() => {
     getFetch(displayFilter)
     .then(data => setDisplayedArticles(data.results))
-  }, []);
+  }, [displayFilter]);
  
   return (
     <>
