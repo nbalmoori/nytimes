@@ -1,10 +1,10 @@
 import '../styling/ArticleList.css';
 import ArticleLink from './ArticleLink';
 
-const ArticleList = ( {displayedArticles} ) => {
+const ArticleList = ( {displayedArticles, displayFilter} ) => {
 
   const articlesToDisplay = displayedArticles.map(article => {
-    return <ArticleLink articleInfo={article} key={article.uri}/>
+    return <ArticleLink articleInfo={article} displayFilter={displayFilter} key={article.uri}/>
   })
 
   return (
