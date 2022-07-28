@@ -1,3 +1,33 @@
+.articleInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2%;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+  align-items: flex-start;
+}
+
 .jumboPic {
   width: 80%;
+  height: 80%;
+}
+
+.picInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 80%;
+  /* padding-right: 10%; */
+}
+
+.copyright,
+.caption {
+  margin: 0;
 }

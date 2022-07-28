@@ -20,10 +20,9 @@ const ArticleDetails = ( {id, section} ) => {
   return (
     <div className='articleInfo'>
       <h1>{selectedArticle.title}</h1>
-      <p>{selectedArticle.byline}</p>
-      <p>Date Published: {dayjs(selectedArticle.published_date).format('MM-DD-YYYY')}</p>
-      {jumboPic && <><img className='jumboPic' src={jumboPic.url} alt={jumboPic.caption}/> <p>{jumboPic.copyright}</p> <p>{jumboPic.caption}</p> </>}
-      <p>{selectedArticle.abstract}</p>
+      <p>{selectedArticle.byline}    |    Date Published: {dayjs(selectedArticle.published_date).format('MM-DD-YYYY')}</p>
+      {jumboPic && <><img className='jumboPic' src={jumboPic.url} alt={jumboPic.caption}/> <div className='picInfo'><p className='copyright'>Copyright: {jumboPic.copyright}</p> <p className='caption'>{jumboPic.caption}</p></div></>}
+      <h2>{selectedArticle.abstract}</h2>
       <p>To view this story on the NYT website, click <a href={selectedArticle.url}>here</a></p>
       <Link to={'/'}><button>Return Home</button></Link>
     </div>
