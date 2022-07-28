@@ -9,7 +9,7 @@ const Filter = ( {setDisplayFilter} ) => {
 
   return (
     <div className="filter">
-    <p>filter by category:</p>
+    <p>Filter by category: </p>
     <select onChange={(e) => setDisplayFilter(e.target.value)}>
       <option value="home" key="home">all</option>
       {options}

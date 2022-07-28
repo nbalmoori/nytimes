@@ -1,8 +1,12 @@
-import '../styling/App.css';
-import ArticleList from './ArticleList';
-import Filter from './Filter';
 import { useEffect, useState } from 'react';
+import { Route, Switch } from 'react-router-dom';
+import ArticleList from './ArticleList';
+import ArticleDetails from './ArticleDetails';
+import Filter from './Filter';
+import Homepage from './Homepage';
 import getFetch from '../apiCalls';
+
+import '../styling/App.css';
 
 const App = () => {
 
@@ -12,15 +16,19 @@ const App = () => {
   useEffect(() => {
     getFetch(displayFilter)
     .then(data => setDisplayedArticles(data.results))
-  });
-
+  }, [displayFilter]);
+ 
   return (
-    <main>
-      <header>Top Stories from the NYT</header>
-      <Filter setDisplayFilter={setDisplayFilter}/>
-      <ArticleList displayedArticles={displayedArticles}/>
-    </main>
+    <>
+    <Switch>
+      <Route exact path="/" render={() => <Homepage displayFilter={displayFilter} setDisplayFilter={setDisplayFilter} displayedArticles={displayedArticles} setDisplayedArticles={setDisplayedArticles}/>}/>
+      <Route exact path="/:section/:id" render={( {match} ) => <ArticleDetails id={match.params.id} section={match.params.section} displayedArticles={displayedArticles} /> } />
+    </Switch>
+    </>
   );
 };
 
 export default App;
+
+
+
