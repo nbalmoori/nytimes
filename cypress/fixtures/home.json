@@ -1,0 +1,76 @@
+{
+  "results": [
+    {
+      "title": "Manchin, in a Reversal, Agrees to Climate and Tax Package",
+      "abstract": "The West Virginia Democrat, a holdout on his party’s domestic agenda, said the package would reduce inflation, a concern he had cited in rejecting it just weeks ago.",
+      "url": "https://www.nytimes.com/2022/07/27/us/politics/manchin-climate-tax-bill.html",
+      "uri": "nyt://article/a34bed81-9e37-51c7-9f33-c2ae4fc60ff4",
+      "byline": "By Emily Cochrane",
+      "updated_date": "2022-07-27T17:26:07-04:00",
+      "created_date": "2022-07-27T17:26:07-04:00",
+      "published_date": "2022-07-27T17:26:07-04:00",
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/07/27/us/politics/27dc-cong-01/merlin_210394923_57b6b84f-9a24-4cae-90ce-681e14143e50-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "caption": "“This bill will cut the inflation taxes Americans are paying, lower the cost of health insurance and prescription drugs, and ensure our country invests in the energy security and climate change solutions we need to remain a global superpower,” Senator Joe Manchin III said in a statement on Wednesday.",
+          "copyright": "Pete Marovich for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/07/27/us/politics/27dc-cong-01/merlin_210394923_57b6b84f-9a24-4cae-90ce-681e14143e50-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "caption": "“This bill will cut the inflation taxes Americans are paying, lower the cost of health insurance and prescription drugs, and ensure our country invests in the energy security and climate change solutions we need to remain a global superpower,” Senator Joe Manchin III said in a statement on Wednesday.",
+          "copyright": "Pete Marovich for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/07/27/us/politics/27dc-cong-01/27dc-cong-01-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "caption": "“This bill will cut the inflation taxes Americans are paying, lower the cost of health insurance and prescription drugs, and ensure our country invests in the energy security and climate change solutions we need to remain a global superpower,” Senator Joe Manchin III said in a statement on Wednesday.",
+          "copyright": "Pete Marovich for The New York Times"
+        }
+      ]
+    },
+    {
+      "title": "What Fed Rate Increases Mean for Mortgages, Credit Cards and More",
+      "abstract": "Savers will benefit and borrowers can expect to pay more on credit cards, student loans and other forms of debt.",
+      "url": "https://www.nytimes.com/2022/07/27/business/fed-rate-mortgage-credit-card.html",
+      "uri": "nyt://article/fa53918d-eff5-5982-a94f-b72d75627d4b",
+      "byline": "By Tara Siegel Bernard",
+      "updated_date": "2022-07-27T14:34:06-04:00",
+      "created_date": "2022-07-27T11:30:38-04:00",
+      "published_date": "2022-07-27T11:30:38-04:00",
+      "multimedia": null
+    },
+
+    {
+      "title": "What Is LIV Golf? It Depends Whom You Ask.",
+      "abstract": "Bold new project or crass money grab? Even golf’s best players (and former President Donald Trump) disagree on the merits of the new Saudi-financed golf tour. Here’s what you need to know",
+      "url": "https://www.nytimes.com/article/liv-golf-saudi-arabia-pga.html",
+      "uri": "nyt://article/a8c66fb2-8815-5590-a8f8-d04f3faa1651",
+      "byline": "By Tariq Panja and Andrew Das",
+      "updated_date": "2022-07-27T12:24:25-04:00",
+      "created_date": "2022-06-10T09:10:42-04:00",
+      "published_date": "2022-06-10T09:10:42-04:00",
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/06/10/multimedia/10liv-golf-explainer/10liv-golf-explainer-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "caption": "",
+          "copyright": "Matthew Lewis/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/06/10/multimedia/10liv-golf-explainer/10liv-golf-explainer-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "caption": "",
+          "copyright": "Matthew Lewis/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/06/10/multimedia/10liv-golf-explainer/10liv-golf-explainer-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "caption": "",
+          "copyright": "Matthew Lewis/Getty Images"
+        }
+      ]
+    }    
+  ]
+}

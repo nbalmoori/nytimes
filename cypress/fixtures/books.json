@@ -1,0 +1,34 @@
+{
+  "results": [
+    {
+      "title": "Globetrotting",
+      "abstract": "Your sneak preview of books in translation coming out in 2022, updated each season.",
+      "url": "https://www.nytimes.com/interactive/2022/books/books-in-translation.html",
+      "uri": "nyt://interactive/deb14a5d-95b7-56d3-9bb4-01bb693f3412",
+      "byline": "By The New York Times",
+      "updated_date": "2022-07-06T11:56:48-04:00",
+      "created_date": "2022-01-28T12:09:06-05:00",
+      "published_date": "2022-01-28T12:09:06-05:00",
+      "multimedia": [
+        {
+        "url": "https://static01.nyt.com/images/2022/06/11/books/globetrotting-promo/globetrotting-promo-superJumbo.png",
+        "format": "Super Jumbo",
+        "caption": "",
+        "copyright": "Thoka Maer"
+        },
+        {
+        "url": "https://static01.nyt.com/images/2022/06/11/books/globetrotting-promo/globetrotting-promo-threeByTwoSmallAt2X.png",
+        "format": "threeByTwoSmallAt2X",
+        "caption": "",
+        "copyright": "Thoka Maer"
+        },
+        {
+        "url": "https://static01.nyt.com/images/2022/06/11/books/globetrotting-promo/globetrotting-promo-thumbLarge.png",
+        "format": "Large Thumbnail",
+        "caption": "",
+        "copyright": "Thoka Maer"
+        }
+      ]
+    }
+  ]
+}
