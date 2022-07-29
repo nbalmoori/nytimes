@@ -1,10 +1,8 @@
-import '../styling/ArticleDetails.css';
-import getFetch from '../apiCalls';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import dayjs from 'dayjs';
-
-
+import getFetch from '../apiCalls';
+import '../styling/ArticleDetails.css';
 
 const ArticleDetails = ( {id, section} ) => {
 

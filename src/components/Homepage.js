@@ -1,10 +1,6 @@
-import { useEffect, useState } from 'react';
-
-import '../styling/Homepage.css';
 import ArticleList from './ArticleList';
 import Filter from './Filter';
-import getFetch from '../apiCalls';
-
+import '../styling/Homepage.css';
 
 const Homepage = ( {displayFilter, setDisplayFilter, displayedArticles, setDisplayedArticles} ) => {
 

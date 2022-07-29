@@ -1,11 +1,8 @@
 import { useEffect, useState } from 'react';
 import { Route, Switch } from 'react-router-dom';
-import ArticleList from './ArticleList';
 import ArticleDetails from './ArticleDetails';
-import Filter from './Filter';
 import Homepage from './Homepage';
 import getFetch from '../apiCalls';
-
 import '../styling/App.css';
 
 const App = () => {
