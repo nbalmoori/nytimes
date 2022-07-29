@@ -8,6 +8,9 @@ This application was built as a take home challenge from the Mod 4 curriculum at
 
 ## Application in Action:
 
+![nytgiphy](https://user-images.githubusercontent.com/95309774/181795180-d1fab695-60a7-4383-939d-a7475d02d47a.gif)
+
+
 ## Set Up:
 
 - Clone the repository to your local machine.
@@ -29,6 +32,15 @@ This application was built as a take home challenge from the Mod 4 curriculum at
 - Restful APIs
 
 ## Planning:
+
+Project Wireframe:
+
+![Screen Shot 2022-07-29 at 9 13 48 AM](https://user-images.githubusercontent.com/95309774/181790327-5ff1fdf1-39dc-4504-877f-94e34965a6d2.png)
+
+Project Board:
+
+![Screen Shot 2022-07-29 at 9 14 27 AM](https://user-images.githubusercontent.com/95309774/181790446-d0ba69f3-21c3-4cd7-b659-57835afda0d2.png)
+
 
 ## Future Additions:
 
